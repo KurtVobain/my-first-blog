@@ -1,20 +1,59 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 		<title>Black Box</title>
 	</head>
 	<body>
 		<div>
 			<h1><strong>Black box</strong> </h1>
+			<a href="#Gallery">Галерея</a>
+			<a href="#Form">Заказать отделку</a> 
+			<a href="#Contact information">Контакты</a>
 		</div>
 		<div>
 			<h2><strong>Коротко о нас</strong></h2>
-			<p>Мы молодая команда, готовая помочь Вам с отделкой для вашего будущего дома. BLACK BOX имеет сотрудничество с двумя крупными компаниями по отделке квартир. В нашей команде находится около десятка бригад с ответственными лицами.</p>	
+			<p>Мы молодая команда, готовая помочь Вам с отделкой для<br>
+			 вашего будущего дома. BLACK BOX имеет сотрудничество с двумя<br>
+			 крупными компаниями по отделке квартир. В нашей команде<br>
+			 находится около десятка бригад с ответственными лицами. 
+			</p>	
 		</div>
 		<div>
-			<p><a href="https://imgur.com/search?q=Rooms">Галерея</a></p>
-			<p><a href="https://vk.com/id153952828">Заказать отделку</a></p>
-			<p><a href="https://vk.com/id153952828">Контакты</a></p>
+			<h3 id="Gallery"><strong>
+				Галлерея
+			</strong></h3>
+			<p><img src="#" alt = "Room"> <img src="#" alt = "Room"></p>
+			<p><img src="#" alt = "Room"><img src="#" alt = "Room"></p>
+		</div>
+		<div>
+			<h3 id="Form">
+				<strong>Заказать отделку</strong>
+			</h3>
+			<form>
+				<p>Адресс:</p>
+				<input type="text" placeholder="Введите адресс" required="Заполните поле">
+				<button type="submit">Найти</button>
+			</form>
+			<form>
+				<h4>
+				Авторизируйтесь, чтобы быть в курсе процесса выполнения работ
+				</h4>
+				<p>Логин/Номер телефона:</p>
+				<input type="text" placeholder="Логин/Тел." required>
+				<p>Пароль:</p>
+				<input type="password" required><br>
+				<button type="submit">Заказать проект</button>
+
+			</form>
+		</div>
+		<div>
+			<h3 id="Contact information"><strong>
+				Контакты
+			</strong></h3>
+			<p >Адресс: ул.******</p> 
+			<p >Телефон раб. 8(999)********</p> 
 		</div>
 	</body>
 </html>
