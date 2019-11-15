@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load staticfiles %}
 <html>
 	<head>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -20,12 +21,19 @@
 			 находится около десятка бригад с ответственными лицами. 
 			</p>	
 		</div>
-		<div>
+		<div class="gallery">
 			<h3 id="Gallery"><strong>
 				Галлерея
 			</strong></h3>
-			<p><img src="#" alt = "Room"> <img src="#" alt = "Room"></p>
-			<p><img src="#" alt = "Room"><img src="#" alt = "Room"></p>
+			
+			<p>
+				<img src="{% static "media\var1.jpg" %}" width="480" height="360" alt = "Room1">
+				<img src="{% static "media\var5.jpg" %}" width="480" height="360" alt = "Room2">
+			</p>
+			<p>
+				<img src="{% static "media\var3.jpg" %}" width="480" height="360" alt = "Room3">
+				<img src="{% static "media\var4.jpg" %}" width="480" height="360" alt = "Room4">
+			</p>
 		</div>
 		<div>
 			<h3 id="Form">
