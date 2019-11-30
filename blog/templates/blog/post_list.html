@@ -78,7 +78,7 @@
 	<body>
 		<div>
 			<p class="article-padding leftstr"><img src="{% static "media\icon_bb.png" %}"  width="200px" height="80px" alt = "black box symbol"></p>
-			<h3 class="rightstr article-padding"><a href="#">Авторизация</a></h3>
+			<h3 class="rightstr article-padding"><a href="{% url 'auth'%}">Авторизация</a></h3>
 		</div>
 		<div class="href-align">
 			<a href="#Gallery">Галерея</a>
@@ -97,11 +97,12 @@
 		</div>
 		<div class="gallery">
 			<h3 class="article-padding article-backgeound" id="Gallery"><strong>
-				Галлерея
+				Галерея
 			</strong></h3>
 			<p class="borders"></p>
 			
 			<p>
+				
 				<img src="{% static "media\var5.jpg" %}" class ="image_size" alt = "Room2">
 				<img src="{% static "media\var1.jpg" %}" class ="image_size"  alt = "Room1">
 				<img src="{% static "media\var3.jpg" %}" class ="image_size" alt = "Room3">
@@ -117,7 +118,7 @@
 				<button type="submit">Найти</button>
 			</form>
 		</div>
-		<div class="authorization ordering">
+		<div class="ordering">
 			<form>
 				<h4>
 				Авторизируйтесь, чтобы быть в курсе процесса выполнения работ
